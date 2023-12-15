@@ -1,0 +1,230 @@
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+#box { 
+  width: 30%; 
+  height: 85px; 
+  border: 10px solid white; 
+  position: relative;
+  margin-left: -100%;
+  animation-name: Startanimasjon; 
+  animation-duration: 2s; 
+  animation-delay: 1s; 
+  animation-timing-function: ease-out; 
+  animation-fill-mode: forwards; 
+  
+} 
+
+@keyframes Startanimasjon{ 
+	from{margin-left: -100%;} 
+	to{margin-left: 34%;} 
+} 
+
+#box2 { 
+  width: 680px; 
+  height: 350px; 
+  border: 10px solid white; 
+  position: relative; 
+  top: 65px; 
+  margin: auto; 
+}
+
+#nett { 
+  position: relative; 
+  top: 80px; 
+  animation-name: Nettanimasjon; 
+  animation-timing-function: linear;
+  animation-play-state: running;
+  animation-duration: 2s; 
+  animation-fill-mode: forwards;
+  position: absolute;
+} 
+
+@keyframes Nettanimasjon{ 
+	from { 
+	       margin-right: 110%;
+	}
+	50% { 
+	     margin-left: 70%;
+	     transform: rotate(720deg);
+	}
+	to {
+	     margin-left: 140%;
+	     transform: rotate(720deg);
+	     display: none;
+	}
+} 
+
+#venom {
+  position: absolute;
+  top: 58px;
+  left: 925px;
+  animation-name: Venomanimasjon;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+}
+
+@keyframes Venomanimasjon{
+	from {
+	       margin-left: 0%;
+	}
+	to {
+	       margin-left: 71%;
+	       display: none;
+	}
+}
+  
+#button1 {
+  position: absolute;
+  top: 35%;
+  left: 2.12%;
+  border: 10px solid rgb(204, 12, 12);
+}
+
+#button2 {
+  position: absolute;
+  top: 65%;
+  left: 2.12%;
+  border: 10px solid rgb(204, 12, 12);
+}
+
+#button3 {
+  position: absolute;
+  top: 95%;
+  left: 2.12%;
+  border: 10px solid rgb(204, 12, 12);
+}
+
+button:hover {
+    background-color: rgb(158, 13, 13) !important; 
+}
+
+a:hover {
+    color: blue; 
+}
+
+#trailer {
+  border: 10px solid rgb(204, 12, 12);
+  position: absolute;
+  top: 250px;
+  right: 19px;
+}
+  
+
+#alldiv {
+  position: relative;
+  top: -105px;
+  margin: auto;
+}
+
+#platinum {
+  width: 30%; 
+  height: 85px; 
+  border: 10px solid white; 
+  position: relative;
+  margin: auto;
+}
+
+
+#tipsogtriks {
+  position: absolute;
+  top: 170px;
+  left: 800px;
+  border: 10px solid blue;  
+}
+
+#table {
+  position: relative;
+  top: 70px;
+}
+  
+#PS5 {
+  width: 30%; 
+  height: 85px; 
+  border: 10px solid white; 
+  position: relative;
+  margin: auto;
+}
+
+#button2title {
+  position: relative;
+  top: -105px;
+  margin: auto;
+}
+
+#info {
+  position: absolute;
+  text-align: center;
+}
+
+#disc {
+  width: 280px;
+  height: 215px;
+  position: absolute;
+  top: 300px;
+  left: 23px;
+  border: 10px solid white;
+}
+
+#linus {
+  position: absolute;
+  top: 415px;
+  right: 21px;
+  border: 10px solid white;
+  width: 280px;
+  height: 150px;
+}
+
+#miles {
+  width: 270px;
+  height: 150px;
+  position: absolute;
+  top: 880px;
+  left: 18px;
+  border: 10px solid white;
+}
+
+#morales {
+  width: 270px;
+  height: 150px;
+  position: absolute;
+  top: 1030px;
+  left: 18px;
+  border: 10px solid white;
+}
+
+#pm {
+  width: 400px;
+  height: 85px; 
+  border: 10px solid blue; 
+  position: relative;
+  margin: auto;
+}
+
+#button3title {
+  position: relative;
+  top: -105px;
+  margin: auto;
+}
+
+#storypic {
+  width: 650px;
+  height: 320px;
+  position: relative;
+  top: -40px;
+  margin: auto;
+  border: 10px solid blue;
+}
+
+#story {
+  width: 280px;
+  height: 180px;
+  position: relative;
+  top: -540px;
+  left: 10px;
+  border: 10px solid blue;
+}
+  
